@@ -138,7 +138,7 @@ Public Class Form_main
             AddHandler bw_save_log.RunWorkerCompleted, AddressOf bw_save_log_RunWorkerCompleted
 
             startup_path = Application.StartupPath()
-            Me.Text = """OKO-online"" - станція моніторингу та керування приладів ОКО, версія " & VER
+Me.Text = """Bezpeka budinku - online 2.0"" - станція моніторингу та керування приладами Безпека будинку, версія " & VER
 
 
             open_config_file()
